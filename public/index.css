@@ -1,0 +1,199 @@
+
+body{
+    /* background-image: url(./images/background.png);
+    background-attachment: fixed;
+    background-size: cover; */
+    background-color : whitesmoke;
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* For Roboto */
+}
+h1 {
+    font-family: 'Archivo Black', sans-serif; /* For Archivo Black */
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* Light */
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Bold */
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* this is the first introduction section */
+.custom-nav-footer{
+    background-color: #030c1ae8;
+}
+#Introduction{
+    /* border: 2px solid black; */
+
+    height: auto;
+    width:  auto;
+    /* width: 100%; */
+    display: flex;
+    /* margin: 10px;
+    margin-left: 15px;
+    margin-right: 15px; */
+    margin-bottom: 30px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url("./images/background.png");
+    filter: brightness(80%); /* Reduces brightness by 50% */
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#intro-img-container{
+    margin: auto;
+    height: 80%;
+    max-width: 25%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#intro-img{
+    width : auto;
+    height: auto;
+    
+    max-height: 80%;
+    max-width: 80%;
+    /* border: 2px solid black; */
+    border-radius: 80% 30% 80% 20% / 40% 60% 40% 50%;
+    box-shadow: 4px 6px 10px rgba(227, 225, 225, 0.4);
+     /* margin-top: -50%;  */
+}
+
+#intro-details-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100%; */
+    width: 60%;
+    margin: auto;
+    
+    /* border: 2px solid blue; */
+}
+
+#title{
+    font-family: 'Roboto','Archivo Black';
+    font-size: 3rem;
+    font-weight: bolder; 
+    color: black;
+}
+
+#title-description{
+    font-family: 'Roboto';
+    
+    font-weight: 500;
+    color: black;
+    /* text-align: justify;
+  text-justify: inter-word; */
+}
+
+#self-explain{
+    /* border: 2px solid red; */
+    margin: 2px;
+    font-size: large;
+    font-weight: 400;
+
+}
+
+
+.detail-segments {
+    /* height: 500px; */
+    border: 1px solid rgb(38, 38, 38);
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(15, 15, 15, 0.4);
+
+    /* background-color: rgba(255, 255, 255, 0.3); Blue background with 20% opacity */
+    /* color: white; */
+}
+
+
+.image-segments{
+    width: 50%;
+    height: auto;
+    max-height: 400px;
+    margin: auto;
+}
+
+.project-card {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+
+.info-block {
+    display: block;
+    padding: 10px;
+    /* background-color: transparent; */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.info-block h5 {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0;
+    padding-right: 5px;
+    font-weight: bold;
+    color: #222221;
+    width: 5rem; /* Fixed width for h5 */
+}
+
+.info-block p {
+    display: inline-block;
+    font-size: 15px;
+    margin: 0;
+    color:rgba(0, 0, 0, 0.8) ;
+    font: 600;
+}
+
+
+footer {
+    clear: both;
+    position: relative;
+    /* height: 200px; */
+    margin-bottom: 0;
+    margin-top:25px
+}
+
+.footer-row {
+    height: 45px;
+    padding: 5px 0; /* Reduce padding to decrease height */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.footer-row:last-child {
+    border-bottom: none; /* Remove border from the last row */
+}
+.footer-border {
+    /* border: 2px solid rgba(255, 255, 255, 0.5);  */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Add padding inside the border */
+}
+.footer-border:hover {
+    border-color: rgba(255, 255, 255, 0.8); /* Change border color on hover for effect */
+}
+.social-icons a {
+    font-size: 1.5rem; /* Increase icon size */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+.social-icons a:hover {
+    color: #f8d7da; /* Light pink color on hover */
+}
+.icon {
+    width: 24px;
+    height: 24px;
+}
